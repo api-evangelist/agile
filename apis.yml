@@ -1,0 +1,15 @@
+name: Agile
+description: Agile is a set of software development principles and practices that
+  emphasize iterative delivery, collaboration, and responsiveness to change over rigid
+  planning and documentation. Its frameworks—including Scrum, Kanban, and XP—help
+  teams deliver working software incrementally and adapt quickly to evolving requirements.
+url: https://agilemanifesto.org/
+tags:
+- Project Management
+- Software Development
+- Methodology
+- Iterative Development
+created: '2025'
+modified: '2025'
+apis: []
+common: []
