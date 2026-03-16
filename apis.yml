@@ -1,15 +1,25 @@
+aid: agile
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/agile/refs/heads/main/apis.yml
 name: Agile
-description: Agile is a set of software development principles and practices that
-  emphasize iterative delivery, collaboration, and responsiveness to change over rigid
-  planning and documentation. Its frameworks—including Scrum, Kanban, and XP—help
-  teams deliver working software incrementally and adapt quickly to evolving requirements.
-url: https://agilemanifesto.org/
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Project Management
-- Software Development
-- Methodology
-- Iterative Development
-created: '2025'
-modified: '2025'
+  - Project Management
+  - Software Development
+  - Methodology
+  - Iterative Development
+description: >-
+  Agile is a set of software development principles and practices that
+  emphasize iterative delivery, collaboration, and responsiveness to change over
+  rigid planning and documentation. Its frameworks include Scrum, Kanban, and XP.
+created: '2025-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 apis: []
-common: []
+common:
+  - type: Website
+    url: https://agilemanifesto.org/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
