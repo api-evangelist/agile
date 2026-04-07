@@ -5,10 +5,10 @@ name: Agile
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Iterative Development
+  - Methodology
   - Project Management
   - Software Development
-  - Methodology
-  - Iterative Development
 description: >-
   Agile is a set of software development principles and practices that
   emphasize iterative delivery, collaboration, and responsiveness to change over
