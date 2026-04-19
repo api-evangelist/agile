@@ -1,0 +1,41 @@
+vocabulary: "1.0.0"
+info:
+  provider: Agile
+  description: Vocabulary for the agile software development philosophy, including the Agile Manifesto principles and major agile frameworks.
+  created: '2026-04-19'
+  modified: '2026-04-19'
+operational:
+  resources:
+    - name: agile-principles
+      description: The 12 principles of the Agile Manifesto
+      actions: [read, reference, align]
+    - name: agile-frameworks
+      description: Agile frameworks including Scrum, Kanban, SAFe, and XP
+      actions: [adopt, configure, measure]
+    - name: agile-teams
+      description: Self-organizing cross-functional teams following agile practices
+      actions: [form, coach, measure]
+  schemas:
+    core:
+      - name: AgilePrinciple
+        description: One of the 12 Agile Manifesto principles
+        properties: [number, principle, category, framework_alignment]
+  enums:
+    principle_categories: [customer, delivery, people, technical, process]
+    frameworks: [Scrum, Kanban, SAFe, XP, LeSS, Lean, DSDM]
+capability:
+  workflows:
+    - name: Agile Adoption
+      description: Adopt agile principles and practices across a software development team or organization
+      personas: [Agile Coach, Developer, Manager]
+      domains: [Agile]
+  personas:
+    - id: agile-coach
+      name: Agile Coach
+      description: Guides teams and organizations in adopting and improving agile practices
+    - id: developer
+      name: Developer
+      description: Applies agile principles in day-to-day software development
+  domains:
+    - name: Agile
+      description: The set of values, principles, and frameworks for iterative collaborative software development

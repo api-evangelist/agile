@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "agile": "https://api-evangelist.github.io/agile/schema/",
+    "schema": "https://schema.org/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "AgilePrinciple": "agile:AgilePrinciple",
+    "number": {
+      "@id": "agile:number",
+      "@type": "xsd:integer"
+    },
+    "principle": {
+      "@id": "agile:principle",
+      "@type": "xsd:string"
+    },
+    "category": {
+      "@id": "agile:category",
+      "@type": "xsd:string"
+    },
+    "framework_alignment": {
+      "@id": "agile:framework_alignment",
+      "@container": "@set",
+      "@type": "xsd:string"
+    }
+  }
+}

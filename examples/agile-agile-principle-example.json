@@ -1,0 +1,10 @@
+{
+  "number": 1,
+  "principle": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
+  "category": "customer",
+  "framework_alignment": [
+    "Scrum",
+    "Kanban",
+    "XP"
+  ]
+}

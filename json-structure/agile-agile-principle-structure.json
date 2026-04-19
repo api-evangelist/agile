@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-structure.org/meta/core/v0/#",
+  "$id": "https://raw.githubusercontent.com/api-evangelist/agile/refs/heads/main/json-structure/agile-agile-principle-structure.json",
+  "name": "AgilePrinciple",
+  "description": "One of the 12 principles of the Agile Manifesto that guide agile software development practices.",
+  "type": "object",
+  "properties": {
+    "number": {
+      "type": "int32",
+      "description": "The principle number (1-12) from the Agile Manifesto.",
+      "example": 1
+    },
+    "principle": {
+      "type": "string",
+      "description": "The text of the agile principle.",
+      "example": "Our highest priority is to satisfy the customer through early and continuous delivery of valuable software."
+    },
+    "category": {
+      "type": "string",
+      "description": "Category grouping for the principle.",
+      "enum": [
+        "customer",
+        "delivery",
+        "people",
+        "technical",
+        "process"
+      ],
+      "example": "customer"
+    },
+    "framework_alignment": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Agile frameworks that directly align with this principle.",
+      "example": [
+        "Scrum",
+        "Kanban",
+        "XP"
+      ]
+    }
+  },
+  "required": [
+    "number",
+    "principle",
+    "category"
+  ]
+}
