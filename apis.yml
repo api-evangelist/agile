@@ -1,5 +1,6 @@
 aid: agile
 name: Agile
+kind: topic
 description: A collection of resources, standards, and APIs representing the broader agile landscape — the set of software development principles first codified in the 2001 Agile Manifesto. Agile 
   values individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over 
   following a plan. This topic index covers the full ecosystem of agile frameworks, methodologies, tools, and APIs including Scrum, Kanban, SAFe, XP, and Lean.
