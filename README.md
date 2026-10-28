@@ -1,4 +1,4 @@
-# Agile (agile)
+# agile
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,78 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-A collection of resources, standards, and APIs representing the broader agile landscape — the set of software development principles first codified in the 2001 Agile Manifesto. Agile values individuals and interactions over processes and tools, working software over comprehensive documentation, customer collaboration over contract negotiation, and responding to change over following a plan. This topic index covers the full ecosystem of agile frameworks, methodologies, tools, and APIs including Scrum, Kanban, SAFe, XP, and Lean.
+## agile on APIs.io
 
-**URL:** [https://agilemanifesto.org/](https://agilemanifesto.org/)
+Everything profiled for agile is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agile/](https://apis.io/providers/agile/)** — or go straight to one of the APIs or properties below.
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## API Evangelist rating
 
-## Tags:
+Not yet rated. See [apis.io/providers/agile/](https://apis.io/providers/agile/).
 
- - Iterative Development, Methodology, Project Management, Software Development, Agile Manifesto, Scrum, Kanban
+## How this profile is made
 
-## Timestamps
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-- **Created:** 2025-01-01
-- **Modified:** 2026-04-19
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for agile: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Common Properties
+## Open an issue
 
-- [Portal](https://agilemanifesto.org/)
-- [GitHubOrganization](https://github.com/api-evangelist)
-- [JSONSchema - Agile Principle Schema](https://raw.githubusercontent.com/api-evangelist/agile/refs/heads/main/json-schema/agile-agile-principle-schema.json)
-- [JSON-LD](https://raw.githubusercontent.com/api-evangelist/agile/refs/heads/main/json-ld/agile-context.jsonld)
-- [Vocabulary](https://raw.githubusercontent.com/api-evangelist/agile/refs/heads/main/vocabulary/agile-vocabulary.yaml)
-
-## Features
-
-| Name | Description |
-|------|-------------|
-| Agile Manifesto Principles | The 12 principles of the Agile Manifesto form the philosophical foundation for all agile frameworks and practices. |
-| Framework Diversity | Agile encompasses multiple frameworks — Scrum, Kanban, SAFe, LeSS, XP, and DSDM — each suited to different team sizes and contexts. |
-| Customer Collaboration | Agile practices emphasize continuous customer and stakeholder engagement through demos, reviews, and feedback loops. |
-| Adaptive Planning | Agile teams embrace change, using iterative planning cycles to adapt priorities and scope based on learning and feedback. |
-| Working Software First | Agile prioritizes delivering working, tested software over creating documentation or following rigid processes. |
-
-## Use Cases
-
-| Name | Description |
-|------|-------------|
-| Software Product Development | Apply agile principles to build software products iteratively, incorporating user feedback between delivery cycles. |
-| Enterprise Digital Transformation | Scale agile practices across large organizations using frameworks like SAFe to improve delivery speed and quality. |
-| Startup Product Discovery | Use agile's emphasis on early delivery and feedback to validate product hypotheses before large investments. |
-| Platform and API Development | Apply agile practices to API development, delivering versioned API increments with developer feedback incorporated each sprint. |
-
-## Integrations
-
-| Name | Description |
-|------|-------------|
-| Jira | The most widely used agile project management platform with Scrum and Kanban board support. |
-| Confluence | Agile documentation and knowledge base platform that integrates with Jira. |
-| Slack | Team communication platform widely used for agile standup notifications and sprint updates. |
-| GitHub | Source control and project management platform that supports agile workflows through Issues and Projects. |
-| Azure DevOps | Microsoft's agile planning and DevOps platform with comprehensive APIs for agile work management. |
-
-## Artifacts
-
-### JSON Schema
-
-- [Agile Principle Schema](json-schema/agile-agile-principle-schema.json)
-
-### JSON Structure
-
-- [Agile Principle Structure](json-structure/agile-agile-principle-structure.json)
-
-### JSON-LD
-
-- [Agile Context](json-ld/agile-context.jsonld)
-
-## Vocabulary
-
-- [Agile Vocabulary](vocabulary/agile-vocabulary.yaml) — Taxonomy for agile principles, frameworks, and adoption practices
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agile/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
